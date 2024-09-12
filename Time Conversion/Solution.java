@@ -17,16 +17,13 @@ class Result {
         String[] hourToConvert = s.split(":");
         
         int hour = Integer.valueOf(hourToConvert[0]);
-        
         String finalHour = "";
         
         if (hourToConvert[2].contains("AM")){
             
             if (hour == 12){
                 hourToConvert[0] = "00";
-            }
-            
-            else if (hour < 10){
+            } else if (hour < 10){
                 hourToConvert[0] = "0" + hour;
             }
             
@@ -34,28 +31,27 @@ class Result {
                 finalHour = finalHour + hourToConvert[i] + ":";
             }
             
-            finalHour += hourToConvert[2].charAt(0);
-            finalHour += hourToConvert[2].charAt(1);
+            finalHour += hourToConvert[2].substring(0, 2);
             
-            return finalHour;
-        }
-        
-        hour += 12;
-    
-        if (hour == 24){
-            hour = 12;
-            hourToConvert[0] = "" + hour;
         } else {
-            hourToConvert[0] = "" + hour;
+            
+            hour += 12;
+    
+            if (hour == 24){
+                hour = 12;
+                hourToConvert[0] = "" + hour;
+            } else {
+                hourToConvert[0] = "" + hour;
+            }
+            
+            for (int i = 0; i < hourToConvert.length - 1; i++){
+                finalHour = finalHour + hourToConvert[i] + ":";
+            }
+            
+            finalHour += hourToConvert[2].substring(0, 2);
+            
         }
-        
-        for (int i = 0; i < hourToConvert.length - 1; i++){
-            finalHour = finalHour + hourToConvert[i] + ":";
-        }
-        
-        finalHour += hourToConvert[2].charAt(0);
-        finalHour += hourToConvert[2].charAt(1);
-        
+    
         return finalHour;
 
     }
