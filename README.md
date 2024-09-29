@@ -10,8 +10,6 @@ Este repositório contém soluções para exercícios de programação do [Hacke
 - Cada diretório corresponde a uma categoria do HackerRank (por exemplo, `algorithms`, `data-structures`, etc.).
 - Dentro de cada diretório, existem outros diretórios com o nome do problema, e dentro a sua solução. A linguagem de programação utilizada está indicada na extensão do arquivo.
 
-### Exemplo:
-
 ```
 hackerrank-solutions/
 │
