@@ -3,7 +3,7 @@
 
 ![HackerRank](https://img.shields.io/badge/HackerRank-05122A?style=flat&logo=hackerrank)
 
-Este repositório contém soluções para exercícios de programação do [HackerRank](https://www.hackerrank.com/). As soluções estão organizadas por domínio e dificuldade, com o objetivo de compartilhar meu aprendizado e progresso em algoritmos e estruturas de dados.
+Este repositório contém soluções para exercícios de programação do [HackerRank](https://www.hackerrank.com/).
 
 ## Estrutura do Repositório
 
