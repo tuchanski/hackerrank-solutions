@@ -41,6 +41,6 @@ hackerrank-solutions/
 - Java
 - Outras linguagens conforme necessário
 
-## Contato
+## Autor
 
-Para mais informações ou dúvidas, entre em contato através do [GitHub](https://github.com/tuchanski).
+- [Guilherme Tuchanski Rocha | GitHub](https://github.com/tuchanski)
