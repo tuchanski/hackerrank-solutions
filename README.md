@@ -35,11 +35,11 @@ hackerrank-solutions/
 2. Navegue até a pasta do problema desejado.
 3. Execute o código da solução usando o interpretador ou compilador da respectiva linguagem.
 
-## Tecnologias Utilizadas
+## Tecnologias
 
 - C++
 - Java
-- Outras linguagens conforme necessário
+- Python
 
 ## Autor
 
