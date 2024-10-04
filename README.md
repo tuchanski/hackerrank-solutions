@@ -16,10 +16,13 @@ hackerrank-solutions/
 ├── algorithms/
 │   ├── A Very Big Sum/main.cpp
 │   └── Birthday Cake Candles/main.cpp
-│
+│   └── (...)
 ├── data-structures/
 │   ├── Arrays Left Rotation/Solution.java
 │   └── Sparce Arrays/Solution.java
+│   └── (...)
+│
+│── (...)
 │
 └── README.md
 ```
